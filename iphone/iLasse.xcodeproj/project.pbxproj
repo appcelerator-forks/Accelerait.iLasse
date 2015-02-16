@@ -28,6 +28,8 @@
 		24DE9E1211C5FE74003F90F6 /* SeOmegapointUiModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* SeOmegapointUiModuleAssets.m */; };
 		71F39D2B1A900173008D5B69 /* TiRootViewController+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F39D291A900173008D5B69 /* TiRootViewController+Extend.h */; };
 		71F39D2C1A900173008D5B69 /* TiRootViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F39D2A1A900173008D5B69 /* TiRootViewController+Extend.m */; };
+		71F39D331A9221F2008D5B69 /* TiViewController+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F39D311A9221F2008D5B69 /* TiViewController+Extend.h */; };
+		71F39D341A9221F2008D5B69 /* TiViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F39D321A9221F2008D5B69 /* TiViewController+Extend.m */; };
 		AA747D9F0F9514B9006C5449 /* SeOmegapointUi_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SeOmegapointUi_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,8 @@
 		24DE9E1011C5FE74003F90F6 /* SeOmegapointUiModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeOmegapointUiModuleAssets.m; path = Classes/SeOmegapointUiModuleAssets.m; sourceTree = "<group>"; };
 		71F39D291A900173008D5B69 /* TiRootViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiRootViewController+Extend.h"; path = "Classes/TiRootViewController+Extend.h"; sourceTree = "<group>"; };
 		71F39D2A1A900173008D5B69 /* TiRootViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiRootViewController+Extend.m"; path = "Classes/TiRootViewController+Extend.m"; sourceTree = "<group>"; };
+		71F39D311A9221F2008D5B69 /* TiViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiViewController+Extend.h"; path = "Classes/TiViewController+Extend.h"; sourceTree = "<group>"; };
+		71F39D321A9221F2008D5B69 /* TiViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiViewController+Extend.m"; path = "Classes/TiViewController+Extend.m"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* SeOmegapointUi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeOmegapointUi_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSeOmegapointUi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSeOmegapointUi.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +101,8 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				71F39D311A9221F2008D5B69 /* TiViewController+Extend.h */,
+				71F39D321A9221F2008D5B69 /* TiViewController+Extend.m */,
 				71F39D291A900173008D5B69 /* TiRootViewController+Extend.h */,
 				71F39D2A1A900173008D5B69 /* TiRootViewController+Extend.m */,
 				24DE9E0F11C5FE74003F90F6 /* SeOmegapointUiModuleAssets.h */,
@@ -125,6 +131,7 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* SeOmegapointUi_Prefix.pch in Headers */,
 				71F39D2B1A900173008D5B69 /* TiRootViewController+Extend.h in Headers */,
+				71F39D331A9221F2008D5B69 /* TiViewController+Extend.h in Headers */,
 				24DD6CF91134B3F500162E58 /* SeOmegapointUiModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* SeOmegapointUiModuleAssets.h in Headers */,
 			);
@@ -203,6 +210,7 @@
 				24DD6CFA1134B3F500162E58 /* SeOmegapointUiModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* SeOmegapointUiModuleAssets.m in Sources */,
 				71F39D2C1A900173008D5B69 /* TiRootViewController+Extend.m in Sources */,
+				71F39D341A9221F2008D5B69 /* TiViewController+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
